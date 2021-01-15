@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Unica+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/normalize.css">
+    <link rel="stylesheet" href="assets/particle.css">
+
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" type="image/jpg" href="images/favicon.jpg" />
+
+    <title>Christmas is coming</title>
+</head>
+
+<body>
+    <div class="overlay">
+        <div class="flyingReindeer"><img src="images/reindeer.png"></div>
+        <div class="christmasTextContainer">
+            <div class="ribbon"></div>
+            <div class="christmasTitle">There are only</div>
+            <div class="counter">
+                <span id="days">0</span> days
+                <span id="hours">0</span> hours
+                <span id="minutes">0</span> min
+                <span id="seconds">0</span> sec
+            </div>
+            <div class="christmasTitleFinal">until Christmas</div>
+        </div>
+
+        <div class="author">&#169; Copyright by
+            <a href="https://www.facebook.com/ionela.ciobanasu.1" target="_blank">Ionela Ciobanasu</a>
+        </div>
+
+    </div>
+    <video width="320" height="240" id="song" controls  autoplay="true" volume="2">
+        <source src="video/music.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>    
+      
+
+      <div id="particles-js"></div>
+
+    <script src="assets/stats.min.js"></script>
+    <script src="assets/particle.js"></script>
+    <script src="assets/particle-controller.js"></script>
+    <script src="assets/script.js"></script>
+
+</body>
+
+</html>
