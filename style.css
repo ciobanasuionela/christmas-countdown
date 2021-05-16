@@ -1,0 +1,139 @@
+html body {
+    background: url("../images/christmas2-min.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.2);
+    height: 100vh;
+    width: 100%;
+}
+
+
+.christmasTextContainer {
+    position: absolute;
+    left: 7%;
+    top: 30%;
+    width: 498px;
+    text-align: center;
+    color: #e0e0e0;
+    background: #005221;
+    padding: 30px;
+    border-radius: 9px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.christmasTextContainer:hover {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
+}
+
+.christmasTitle {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out
+}
+
+.christmasTitle:hover, .christmasTitleFinal:hover {
+    color: red;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.ribbon {
+    background: url(../images/ribbon.png);
+    width: 100px;
+    height: 125px;
+    background-size: 130px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    right: -21px;
+    top: -22px;
+}
+
+.counter {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Unica One', cursive;
+    margin: 20px;
+}
+
+#days, #hours, #minutes, #seconds {
+    font-style: italic;
+    transition: all 0.5s ease-in-out;
+}
+
+.christmasTitleFinal {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 20px;
+    transition: all .2s ease-in-out
+}
+
+
+.counter span {
+    color: #920c05;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.author {
+    position: fixed;
+    bottom: 4px;
+    left: 4px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 12px;
+    z-index: 3;
+}
+
+.author a {
+    color: grey;
+}
+
+#particles-js {
+    background-color: rgba(0,0,0,0);
+    background-image: none;
+    top: 0px;
+    left: 0px;
+}
+
+.flyingReindeer {
+    position: fixed;
+    top: 89px;
+    left: -260px;
+    width: 260px;
+    overflow: hidden;
+    transition: all 25s ease;
+    z-index: 1;
+}
+
+.flyingReindeer img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+video {
+    position: absolute;
+    z-index: 8;
+    bottom: 0px;
+    right: 10px;
+    width: 300px;
+}
+
